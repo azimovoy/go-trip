@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "RM";
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-nav {
+  background: #3e8989;
+}
+.header-nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+.header-nav-a {
+  color: #fff;
+  font-size: 16px;
+  transition: all 300ms;
+  margin-top: 36px;
+  margin-bottom: 45px;
+  display: block;
+  height: 19px;
+}
+.header-nav-a:hover {
+  text-decoration: underline;
+}
+.header-content {
+  height: 800px;
+  background: url(../images/fon.jpg) no-repeat center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.header-content .header-content-title {
+  font-family: "RSB";
+  color: #fff;
+  font-size: 80px;
+}
+.header-content .header-content-h2 {
+  color: #fff;
+  font-size: 40px;
+}
+.header-content .header-content-button {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 14px 78px;
+  border-radius: 30px;
+  background: #b4436c;
+  border: none;
+}
+.header__form {
+  display: flex;
+}
+.header__form button,
+.header__form input {
+  border: none;
+  outline: none;
+}
+.header__form input {
+  border-radius: 20px 0px 0px 20px;
+  max-width: 216px;
+  width: 100%;
+  height: 35px;
+  padding: 8px 20px;
+  color: #898989;
+  font-size: 16px;
+}
+.header__form button {
+  border-radius: 0px 20px 20px 0px;
+  background: #295e5e;
+  color: #fff;
+  font-size: 14px;
+  max-width: 74px;
+  width: 100%;
+  height: 35px;
+  font-family: "RR";
+  color: #fff;
+  font-size: 14px;
+}
+h2.about-us {
+  color: #3e8989;
+  font-size: 40px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: "RSB";
+}
+.about-us-p1 {
+  margin-left: 20px;
+  color: #000;
+  font-size: 18px;
+  font-family: "RR";
+
+  overflow: auto;
+}
+.about-us-p2 {
+  overflow: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  color: #000;
+  font-size: 18px;
+  font-family: "RR";
+}
+.about-us-left {
+  max-height: 261px;
+  max-width: 545px;
+  width: 100%;
+}
+.about-us-left img {
+  width: 100%;
+}
+.about-us-right {
+  width: 100%;
+}
+
+.main-img-text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.main-catalog-title {
+  margin-bottom: 53px;
+  display: flex;
+  justify-content: center;
+  color: #3e8989;
+  font-family: "RSB";
+  font-size: 40px;
+}
+.main-catalog {
+  margin-top: 100px;
+}
+.catalog-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 263px;
+  height: 300px;
+  background: #efefef;
+}
+
+.main-catalog-img {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.catalog-h3 {
+  color: #000;
+  font-family: "ISB";
+  font-size: 24px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  transition: all 300ms;
+}
+.catalog-h3:hover {
+  color: #b4436c;
+}
+.main-contacts-title {
+  color: #3e8989;
+  font-family: "ISB";
+  font-size: 40px;
+}
+.main-contacts {
+  margin-top: 100px;
+}
+.details {
+  color: #000;
+  font-family: "RR";
+  font-size: 20px;
+  max-width: 566px;
+  width: 100%;
+}
+.number {
+  color: #000;
+  font-family: "RR";
+  font-size: 20px;
+}
+.gmail {
+  margin-top: 20px;
+  color: #000;
+  font-family: "RR";
+  font-size: 20px;
+}
+.contacts-infa {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts {
+  max-width: 166px;
+  width: 100%;
+}
+.footer {
+  padding-top: 50px;
+  background: #3e8989;
+  margin-top: 104px;
+}
+.footer-box {
+  display: flex;
+  justify-content: center;
+}
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.information {
+  color: #fff;
+  font-size: 16px;
+}
+.reserve {
+  color: #fff;
+  font-family: "RR";
+  font-size: 16px;
+}
+.date {
+  color: #fff;
+  font-family: "RR";
+  font-size: 16px;
+}
+.more {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+@media (max-width: 1146px) {
+  
+  
+  .main-catalog-img {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .contacts-infa {
+    gap: 20px;
+  }
+  .header-content {
+    height: auto;
+    padding: 25px 0;
+  }
+  .header-content-h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 637px) {
+  .header-nav-box {
+    justify-content: center;
+    padding: 30px 0;
+  }
+}
+@media (max-width: 400px) {
+  .main-img-text {
+    row-gap: 30px;
+  }
+}
+@media (max-width: 661px) {
+  .header-nav-box {
+    padding: 30px 0;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .about-us-left  {
+    justify-content: center;
+  }
+  .main-img-text {
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .contacts {
+    width: 100px;
+  }
+  .number,
+  .gmail {
+    font-size: 10px;
+  }
+}
+
